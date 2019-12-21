@@ -4,7 +4,7 @@ def run_guessing_game
   guessed_number = gets.chomp 
   
   case guessed_number
-  when random_number.to_str
+  when random_number.to_s
     puts("You guessed the correct number!")
   when "exit"
     puts("Goodbye!")
