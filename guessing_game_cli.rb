@@ -1,6 +1,5 @@
 def run_guessing_game
-  random_number = rand(1..6)
-  #puts("Guess a number between 1 and 6")
+  random_number = rand(5)
   guessed_number = gets.chomp 
   
   case guessed_number
