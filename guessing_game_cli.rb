@@ -9,6 +9,6 @@ def run_guessing_game
   when random_number != guessed_number
     puts("Sorry! The computer guessed #{random_number}.")
   else
-    puts("Goodbye")
+    puts("Goodbye!")
   end 
 end
