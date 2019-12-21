@@ -1,5 +1,5 @@
 def run_guessing_game
-  random_number = rand(5)
+  random_number = rand(5) + 1
   guessed_number = gets.chomp 
   
   case guessed_number
