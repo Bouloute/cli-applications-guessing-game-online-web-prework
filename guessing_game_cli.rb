@@ -11,4 +11,5 @@ def run_guessing_game
   else 
     puts("Sorry! The computer guessed #{random_number}.")
   end 
+  puts("#{guessed_number} and #{random_number}")
 end
