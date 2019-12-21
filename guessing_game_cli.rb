@@ -11,3 +11,4 @@ def run_guessing_game
   else
     puts("Goodbye")
   end 
+end
